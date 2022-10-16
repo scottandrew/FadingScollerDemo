@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		40C29AF028EE725800820505 /* FadingScrollerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29AEF28EE725800820505 /* FadingScrollerDemoApp.swift */; };
-		40C29AF228EE725800820505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29AF128EE725800820505 /* ContentView.swift */; };
+		40C29AF228EE725800820505 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29AF128EE725800820505 /* GalleryView.swift */; };
 		40C29AF428EE725900820505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C29AF328EE725900820505 /* Assets.xcassets */; };
 		40C29AF728EE725900820505 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C29AF628EE725900820505 /* Preview Assets.xcassets */; };
 		40C29B0128EE725900820505 /* FadingScrollerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B0028EE725900820505 /* FadingScrollerDemoTests.swift */; };
 		40C29B0B28EE725900820505 /* FadingScrollerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B0A28EE725900820505 /* FadingScrollerDemoUITests.swift */; };
 		40C29B0D28EE725900820505 /* FadingScrollerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B0C28EE725900820505 /* FadingScrollerDemoUITestsLaunchTests.swift */; };
+		40C29B1B28EE72A100820505 /* UIImage+AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B1A28EE72A100820505 /* UIImage+AverageColor.swift */; };
+		40C29B1D28F1ED1400820505 /* ImageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B1C28F1ED1400820505 /* ImageItemView.swift */; };
+		40C29B2028F2722D00820505 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 40C29B1F28F2722D00820505 /* Introspect */; };
+		40C29B2228F4691200820505 /* UIColor+interpolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B2128F4691200820505 /* UIColor+interpolate.swift */; };
+		40C29B2428F4A73800820505 /* ImageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B2328F4A73800820505 /* ImageEntry.swift */; };
+		40C29B2628F4A84900820505 /* ScrollViewOffsetPreferenceKey                         .swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B2528F4A84900820505 /* ScrollViewOffsetPreferenceKey                         .swift */; };
+		40C29B2828F4AB6E00820505 /* BackgroundCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29B2728F4AB6E00820505 /* BackgroundCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		40C29AEC28EE725800820505 /* FadingScrollerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadingScrollerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C29AEF28EE725800820505 /* FadingScrollerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingScrollerDemoApp.swift; sourceTree = "<group>"; };
-		40C29AF128EE725800820505 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C29AF128EE725800820505 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		40C29AF328EE725900820505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C29AF628EE725900820505 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40C29AFC28EE725900820505 /* FadingScrollerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadingScrollerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,12 @@
 		40C29B0628EE725900820505 /* FadingScrollerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadingScrollerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C29B0A28EE725900820505 /* FadingScrollerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingScrollerDemoUITests.swift; sourceTree = "<group>"; };
 		40C29B0C28EE725900820505 /* FadingScrollerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingScrollerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40C29B1A28EE72A100820505 /* UIImage+AverageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AverageColor.swift"; sourceTree = "<group>"; };
+		40C29B1C28F1ED1400820505 /* ImageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemView.swift; sourceTree = "<group>"; };
+		40C29B2128F4691200820505 /* UIColor+interpolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+interpolate.swift"; sourceTree = "<group>"; };
+		40C29B2328F4A73800820505 /* ImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntry.swift; sourceTree = "<group>"; };
+		40C29B2528F4A84900820505 /* ScrollViewOffsetPreferenceKey                         .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewOffsetPreferenceKey                         .swift"; sourceTree = "<group>"; };
+		40C29B2728F4AB6E00820505 /* BackgroundCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C29B2028F2722D00820505 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +108,15 @@
 		40C29AEE28EE725800820505 /* FadingScrollerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				40C29B1928EE726600820505 /* Extensions */,
+				40C29B2528F4A84900820505 /* ScrollViewOffsetPreferenceKey                         .swift */,
 				40C29AEF28EE725800820505 /* FadingScrollerDemoApp.swift */,
-				40C29AF128EE725800820505 /* ContentView.swift */,
+				40C29AF128EE725800820505 /* GalleryView.swift */,
 				40C29AF328EE725900820505 /* Assets.xcassets */,
 				40C29AF528EE725900820505 /* Preview Content */,
+				40C29B1C28F1ED1400820505 /* ImageItemView.swift */,
+				40C29B2328F4A73800820505 /* ImageEntry.swift */,
+				40C29B2728F4AB6E00820505 /* BackgroundCalculator.swift */,
 			);
 			path = FadingScrollerDemo;
 			sourceTree = "<group>";
@@ -127,6 +146,15 @@
 			path = FadingScrollerDemoUITests;
 			sourceTree = "<group>";
 		};
+		40C29B1928EE726600820505 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40C29B1A28EE72A100820505 /* UIImage+AverageColor.swift */,
+				40C29B2128F4691200820505 /* UIColor+interpolate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +171,9 @@
 			dependencies = (
 			);
 			name = FadingScrollerDemo;
+			packageProductDependencies = (
+				40C29B1F28F2722D00820505 /* Introspect */,
+			);
 			productName = FadingScrollerDemo;
 			productReference = 40C29AEC28EE725800820505 /* FadingScrollerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +246,9 @@
 				Base,
 			);
 			mainGroup = 40C29AE328EE725800820505;
+			packageReferences = (
+				40C29B1E28F2722D00820505 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 40C29AED28EE725800820505 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C29AF228EE725800820505 /* ContentView.swift in Sources */,
+				40C29B2628F4A84900820505 /* ScrollViewOffsetPreferenceKey                         .swift in Sources */,
+				40C29B1B28EE72A100820505 /* UIImage+AverageColor.swift in Sources */,
+				40C29AF228EE725800820505 /* GalleryView.swift in Sources */,
+				40C29B2228F4691200820505 /* UIColor+interpolate.swift in Sources */,
 				40C29AF028EE725800820505 /* FadingScrollerDemoApp.swift in Sources */,
+				40C29B2428F4A73800820505 /* ImageEntry.swift in Sources */,
+				40C29B1D28F1ED1400820505 /* ImageItemView.swift in Sources */,
+				40C29B2828F4AB6E00820505 /* BackgroundCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40C29B1E28F2722D00820505 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40C29B1F28F2722D00820505 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40C29B1E28F2722D00820505 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 40C29AE428EE725800820505 /* Project object */;
 }
